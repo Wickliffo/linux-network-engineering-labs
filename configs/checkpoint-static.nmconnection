@@ -1,0 +1,12 @@
+[connection]
+id=checkpoint-static
+type=ethernet
+interface-name=enp1s0
+autoconnect=true
+
+[ipv4]
+method=manual
+address1=192.168.70.20/24
+
+[ipv6]
+method=ignore
